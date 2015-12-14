@@ -1,4 +1,4 @@
-FROM tleyden5iwx/caffe-gpu-master
+FROM tleyden5iwx/caffe-cpu-master
 
 ENV PYTHONPATH /opt/caffe/python
 ENV PATH $PATH:/opt/caffe/.build_release/tools
